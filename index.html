@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+    
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Coverter</title>
+    
+<link rel="stylesheet" href="style.css"></head>
+<body >
+    <section id="buttons">
+        <a href="#Length Converter">Length Converter</a>
+        
+        <a href="#Tempereture Converter">Tempereture Converter</a>
+    </section>
+
+
+
+    <section id="Length Converter">
+
+    <p class="top-txt"></p>
+    <div class="container">
+        <p>Length Converter</p>
+        <div class="inputContainer">
+            <label for="feet">Feet</label><input type="number" name="" id="feet" oninput="convertToOthers(&#39;feet&#39;,this.value)">
+        </div>
+        <div class="inputContainer">
+            <label for="meter">Meters</label><input type="number" name="" id="meter" oninput="convertToOthers(&#39;meter&#39;,this.value)">
+        </div>
+        <div class="inputContainer">
+            <label for="inches">Inches</label><input type="number" name="" id="inches" oninput="convertToOthers(&#39;inch&#39;,this.value)">
+        </div>
+        <div class="inputContainer">
+            <label for="cm">CM</label><input type="number" name="" id="cm" oninput="convertToOthers(&#39;cm&#39;,this.value)">
+        </div>
+        <div class="inputContainer">
+            <label for="yards">Yards</label><input type="number" name="" id="yards" oninput="convertToOthers(&#39;yard&#39;,this.value)">
+        </div>
+        <div class="inputContainer">
+            <label for="km">Kilometers</label><input type="number" name="" id="km" oninput="convertToOthers(&#39;km&#39;,this.value)">
+        </div>
+        <div class="inputContainer">
+            <label for="miles">Miles</label><input type="number" name="" id="miles" oninput="convertToOthers(&#39;mile&#39;,this.value)">
+        </div>
+    </div>        
+    <script src="script.js.download"></script>
+    
+</section>
+
+<section id="Tempereture Converter">
+    
+    <div class="containere">
+        <h1>
+             &nbsp; Temperature Converter</h1>
+            <br>
+            
+            <br>
+        <div class="converter-row">
+            
+            <div class="col">
+                
+                <label>Fahrenheit</label>
+                
+                <input type="number" id="fahrenheit">
+                
+            </div>
+            
+            <div class="col">
+                <label>Celsius</label>
+                <input type="number" id="celsius">
+            </div>
+      
+            <div class="col">
+                <label>Kelvin</label>
+                <input type="number" id="kelvin">
+            </div>
+        </div>
+    </div>
+    <script src="script2.js.download"></script>
+   
+</section>
+</body>
+<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+</html>

@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+section {
+    height:100vh;
+    padding: 2em;
+}
+
+#buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    background-image: linear-gradient(rgb(33, 241, 199), rgb(95, 196, 243));
+    
+}
+
+#buttons a {
+    background-color: rgb(236, 116, 226);
+    color: rgb(10, 10, 0);
+    font-size: 1.2em;
+    padding: 1em 2em;
+    text-decoration: none;
+    margin-right: 1cm;
+}
+
+
+
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        flex-direction: column;
+        
+    }
+.top-txt{
+    margin-bottom: 15px;
+}
+
+.container{
+    color: rgb(7, 1, 13) ;
+    box-shadow: 0 0 4px 1px rgb(129, 202, 220);
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    background-color: beige;
+    justify-content: center; 
+    align-items: center;  
+    flex-direction: column;  
+}
+.container p{
+    color: rgb(208, 28, 4);
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.inputContainer{
+    margin:5px;
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+    
+}
+.inputContainer label{
+    font-size: larger;
+}
+.inputContainer input{
+    border:none;
+    outline: none;
+    box-shadow: 0.1px 1px 2px 1px rgb(81, 35, 35);
+    padding:4px;
+    font-size: large;
+    border-radius: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.containere {
+    
+    width: 100%;
+    min-width: 600px;
+    height: 100vh;
+    background-image: 
+      linear-gradient(rgb(240, 230, 140), rgb(20, 141, 20));
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+      align-items: center; 
+}
+  
+.containere h1 {
+    color: rgb(10, 2, 1);
+    font-weight: 550;
+    font-size: 37px;
+    text-align: center;
+}
+
+.converter-row {
+    display: flex;
+    min-width: 300px;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(156, 110, 199);
+    border-radius: 10px;
+    padding: 50px 20px;
+}
+  
+.col {
+    flex-basis: 20%;
+    text-align: center;
+}
+
+.col label {
+    font-size: 20px;
+    min-width: 400px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #fff;
+}
+  
+.col input {
+    width: 80px;
+    height: 40px;
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+}
